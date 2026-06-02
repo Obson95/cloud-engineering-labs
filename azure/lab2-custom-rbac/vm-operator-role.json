@@ -1,0 +1,14 @@
+{
+  "Name": "VM Restart Operator",
+  "Description": "Can view and restart VMs but not create or delete them",
+  "Actions": [
+    "Microsoft.Compute/virtualMachines/read",
+    "Microsoft.Compute/virtualMachines/restart/action",
+    "Microsoft.Compute/virtualMachines/start/action",
+    "Microsoft.Compute/virtualMachines/instanceView/read"
+  ],
+  "NotActions": [],
+  "AssignableScopes": [
+    "/subscriptions/1c162c17-300f-45af-bfe1-3fde4fa1ecc2"
+  ]
+}
